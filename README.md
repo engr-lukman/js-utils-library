@@ -2,7 +2,7 @@
 
 A comprehensive JavaScript/TypeScript utility library for common web development tasks. Works seamlessly with Vue, React, or plain JavaScript projects.
 
-## 🚀 Quick Start
+## Quick Start
 
 ### CDN Usage (Recommended)
 
@@ -23,7 +23,7 @@ git clone https://github.com/engr-lukman/js-utils-library.git
 # Or download specific files as needed
 ```
 
-## 📚 Available Functions
+## Available Functions
 
 ### Input Validation & Formatting
 - **[allowNumbersAndDot](./src/allow-numbers-and-dot/README.md)** - Restrict input to numbers and dots only
@@ -57,7 +57,7 @@ git clone https://github.com/engr-lukman/js-utils-library.git
 ### Async Utilities
 - **[delay](./src/delay/README.md)** - Create promise-based delays
 
-## 💡 Usage Examples
+## Usage Examples
 
 ### Input Validation
 ```javascript
@@ -111,7 +111,7 @@ const themeColor = getRandomHexColor();
 const userId = randomNumber(1000, 9999);
 ```
 
-## 🌟 Features
+## Features
 
 - **Zero Dependencies** - Pure JavaScript, no external libraries
 - **Tree Shakable** - Import only what you need
@@ -121,7 +121,7 @@ const userId = randomNumber(1000, 9999);
 - **Modern ES6+** - Uses modern JavaScript features
 - **CDN Ready** - Direct import via jsDelivr CDN
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 src/
@@ -146,15 +146,15 @@ src/
 └── index.js                    # Main export file
 ```
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 📄 License
+## License
 
 MIT License - feel free to use in your projects.
 
-## 🔗 Links
+## Links
 
 - **GitHub Repository**: [js-utils-library](https://github.com/engr-lukman/js-utils-library)
 - **CDN**: https://cdn.jsdelivr.net/gh/engr-lukman/js-utils-library@main/src/index.js
