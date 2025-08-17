@@ -44,7 +44,7 @@ console.log(isValidBangladeshiMobileNumber(null));            // false (null)
 
 ## Supported Operators
 
-- **013**: Airtel
+- **013**: Grameenphone
 - **014**: Banglalink  
 - **015**: Teletalk
 - **016**: Airtel
