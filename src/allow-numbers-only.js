@@ -1,12 +1,6 @@
-export const allowNumbersOnly = (evt) => {
-  // Regex: allow digits 0-9 or a single dot
+const allowNumbersAndDot = (evt) => {
   const regex = /^[0-9.]$/;
-  const keyPressed = evt.key;
-
-  if (!regex.test(keyPressed)) {
-    evt.preventDefault();
-    return false;
-  }
-
-  return true;
+  if (!regex.test(evt.key)) evt.preventDefault();
 };
+
+export default allowNumbersAndDot;

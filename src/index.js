@@ -1,5 +1,3 @@
-import {allowNumbersOnly} from "./allow-numbers-only";
+import allowNumbersAndDot from "./allow-numbers-only.js";
 
-export {
-  allowNumbersOnly
-};
+export { allowNumbersAndDot };
